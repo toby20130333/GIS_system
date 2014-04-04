@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\glwidget.o
+./debug\Gps_line.o
+./debug\Gps_point.o
+./debug\Gps_road.o
+./debug\firstwidget.o
+./debug\gps_map.o
+./debug\gps_sql_read.o
+./debug\Gps_algorithm.o
+./debug\Gps_building.o
+./debug\moc_glwidget.o
+./debug\moc_firstwidget.o
+);

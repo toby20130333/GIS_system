@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FirstWidget</class>
+ <widget class="QWidget" name="FirstWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>469</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_search">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 85, 0);
+font: 9pt &quot;Adobe 仿宋 Std R&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>查找</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_begin">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(20, 20, 255);</string>
+   </property>
+   <property name="text">
+    <string>起点</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_input_road">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>240</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(166, 214, 255);
+font: 9pt &quot;Adobe 仿宋 Std R&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_find_road">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 85, 0);
+color: rgb(0, 0, 0);
+font: 10pt &quot;Adobe 仿宋 Std R&quot;;</string>
+   </property>
+   <property name="text">
+    <string>寻路</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_end">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(48, 21, 255);</string>
+   </property>
+   <property name="text">
+    <string>终点</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_begin">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>110</y>
+     <width>201</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(110, 166, 255);
+font: 9pt &quot;Adobe 仿宋 Std R&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_end">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>201</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(110, 188, 255);
+font: 9pt &quot;Adobe 仿宋 Std R&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_beg_end">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(79, 188, 255);
+font: 9pt &quot;Adobe 仿宋 Std R&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>起点</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>终点</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_input">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>输入起点:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_option">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(12, 28, 255);</string>
+   </property>
+   <property name="text">
+    <string>选择</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>60</y>
+     <width>181</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(123, 191, 255);
+font: 10pt &quot;Adobe 仿宋 Std R&quot;;
+color: rgb(255, 47, 165);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Adobe 仿宋 Std R&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(85, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

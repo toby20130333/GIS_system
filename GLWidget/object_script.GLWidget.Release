@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\glwidget.o
+./release\Gps_line.o
+./release\Gps_point.o
+./release\Gps_road.o
+./release\firstwidget.o
+./release\gps_map.o
+./release\gps_sql_read.o
+./release\Gps_algorithm.o
+./release\Gps_building.o
+./release\moc_glwidget.o
+./release\moc_firstwidget.o
+);
